@@ -4,3 +4,6 @@ ejercicio = "un día que el viento soplaba con fuerza#mira como se mueve aquella
 lineas = ejercicio.split("#")
 for i, linea in enumerate(lineas):
     lineas[i] = linea.capitalize()
+    if i == 0:
+        lineas[i] = lineas[i] + "..."
+        
