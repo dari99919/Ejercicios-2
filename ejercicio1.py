@@ -1,5 +1,5 @@
 import math
-
+#creamos la clase
 class Punto:
     
     def _init_(self, x, y):
